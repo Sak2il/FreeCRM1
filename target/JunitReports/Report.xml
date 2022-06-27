@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="55.114">
+    <testcase classname="Verifying the Login functionality of FreeCRM website" name="_2" time="55.106">
+        <system-out><![CDATA[Given Opens the browser.....................................................passed
+When Enters the url.........................................................passed
+And User clicked on login button............................................passed
+Then User enter username and password.......................................passed
+And user press Login button.................................................passed
+Then User navigate to the Calendar page.....................................passed
+Then User navigate to the Calendar page.....................................passed
+And User should select the setting option...................................passed
+And User select logout button...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 771975500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Opens the browser",
+            "match": {
+              "location": "org.login.com.Login.opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2523235200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enters the url",
+            "match": {
+              "location": "org.login.com.Login.enters_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6251389800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicked on login button",
+            "match": {
+              "location": "org.login.com.Login.user_clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9066189100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter username and password",
+            "match": {
+              "location": "org.login.com.Login.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3961917000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user press Login button",
+            "match": {
+              "location": "org.login.com.Login.user_press_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11342510200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigate to the Calendar page",
+            "match": {
+              "location": "org.calendarpage.com.Homepage.user_navigate_to_the_Calendar_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-27T07:00:01.385Z",
+        "line": 10,
+        "name": "",
+        "description": "As a user, I want to Logout",
+        "id": "verifying-the-login-functionality-of-freecrm-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11161391500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate to the Calendar page",
+            "match": {
+              "location": "org.calendarpage.com.Homepage.user_navigate_to_the_Calendar_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5061490800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should select the setting option",
+            "match": {
+              "location": "org.logout.com.Logout.user_should_select_the_setting_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4966107700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select logout button",
+            "match": {
+              "location": "org.logout.com.Logout.user_select_logout_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Login functionality of FreeCRM website",
+    "description": "",
+    "id": "verifying-the-login-functionality-of-freecrm-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Logout/logout.feature",
+    "tags": []
+  }
+]
